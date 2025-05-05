@@ -1,0 +1,5 @@
+if(EXISTS "/home/ulissesuls/Projects/CTC-12/Exame/build/labTsptests[1]_tests.cmake")
+  include("/home/ulissesuls/Projects/CTC-12/Exame/build/labTsptests[1]_tests.cmake")
+else()
+  add_test(labTsptests_NOT_BUILT labTsptests_NOT_BUILT)
+endif()
